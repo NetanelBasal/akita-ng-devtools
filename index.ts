@@ -23,11 +23,6 @@ export class AkitaDevtools {
   }
 }
 
-export function d() {}
-export function init(akitaDevtools: AkitaDevtools) {
-  return d;
-}
-
 @NgModule({})
 export class AkitaNgDevtools {
   public static forRoot(
@@ -40,12 +35,6 @@ export class AkitaNgDevtools {
         {
           provide: DEVTOOLS_OPTIONS,
           useValue: options
-        },
-        {
-          provide: APP_INITIALIZER,
-          useFactory: init,
-          deps: [AkitaDevtools],
-          multi: true
         }
       ]
     };
