@@ -1,0 +1,36 @@
+{
+  "name": "@datorama/akita-ngdevtools",
+  "description": "Akita integration for Redux dev-tools chrome extension",
+  "version": "3.0.0",
+  "scripts": {
+    "build": "ng-packagr -p package.json && copy LICENSE dist && copy README.md dist"
+  },
+  "homepage": "https://github.com/datorama/akita#readme",
+  "devDependencies": {
+    "@angular/compiler": "7.2.9",
+    "@angular/compiler-cli": "7.2.9",
+    "@angular/core": "7.2.9",
+    "@datorama/akita": "^3.0.0",
+    "copy": "^0.3.2",
+    "ng-packagr": "4.7.1",
+    "tsickle": "0.34.3",
+    "tslib": "1.9.3",
+    "typescript": "3.1.1"
+  },
+  "keywords": [
+    "angular",
+    "akita",
+    "akits devtools",
+    "devtools"
+  ],
+  "license": "Apache License 2.0",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./index.ts",
+      "languageLevel": [
+        "dom",
+        "es2017"
+      ]
+    }
+  }
+}
