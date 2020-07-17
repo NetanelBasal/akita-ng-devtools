@@ -51,10 +51,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@datorama/akita@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@datorama/akita/-/akita-3.0.0.tgz#f53bc1bb21b80bc0affb0270a81a5af9dc3640e5"
-  integrity sha512-PvP/mlJP3zN5oVVTgp6zHlKUaC9xDMTXr/INC13fQJkCYYIrDvxBsSfnnep4iAOV89ExVAwuYGjUTS46LYNtdw==
+"@datorama/akita@^3.0.0":
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/@datorama/akita/-/akita-3.18.0.tgz#96c4730d0ab4888160b371d93efd49ad9b08811c"
+  integrity sha512-Ar/yNi4OIELywF++ZvRDkT9brTSpEz51+Xkopuyguw7UzTbQdQjq8Nh5gukK4FMRYtZRo0kGvKhWFgOOhWpvbA==
   dependencies:
     schematics-utilities "^1.1.1"
     tslib "^1.9.0"
@@ -1779,8 +1779,9 @@ lodash.mergewith@^4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
 
 lodash@^4.0.0, lodash@~4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-ok@^0.1.1:
   version "0.1.1"
