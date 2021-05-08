@@ -12,7 +12,7 @@
     "@angular/core": "7.2.9",
     "@datorama/akita": "^3.0.0",
     "copy": "^0.3.2",
-    "ng-packagr": "4.7.1",
+    "ng-packagr": "10.1.1",
     "tsickle": "0.34.3",
     "tslib": "1.9.3",
     "typescript": "3.1.1"
